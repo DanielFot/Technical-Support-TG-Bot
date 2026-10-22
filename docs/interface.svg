@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Everything Desk: a little help for everything you buy</title>
+  <desc id="desc">An original shop-themed illustration of the bot's menu, two departments and ticket receipt. Telegram uses its own native theme.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1200" height="700" fill="#102d2b"/>
+  <rect width="1200" height="700" fill="url(#grid)"/>
+  <circle cx="1110" cy="50" r="255" fill="#cbea8c" opacity=".035"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="50" y="42" width="53" height="53" rx="15" fill="#d5ef9c"/>
+    <g fill="none" stroke="#173d36" stroke-width="2.7"><path d="M63 65h27v19H63zM60 65l5-10h23l5 10M72 84V72h9v12"/><path d="M61 65q4 7 8 0q4 7 8 0q4 7 8 0q4 7 8 0"/></g>
+    <text x="118" y="65" fill="#f7f3e8" font-size="17" font-weight="700" letter-spacing="2">EVERYTHING DESK</text>
+    <text x="118" y="88" fill="#a9c1b9" font-size="13">WE SELL EVERYTHING IN THE WORLD</text>
+    <rect x="982" y="48" width="168" height="34" rx="17" stroke="#55746b" fill="none"/>
+    <text x="1066" y="70" fill="#d6e8df" font-size="12" text-anchor="middle" letter-spacing="1">TELEGRAM SUPPORT</text>
+    <text x="50" y="175" fill="#f8f4e9" font-size="47" font-weight="650">A little help for</text>
+    <text x="50" y="230" fill="#d5ef9c" font-size="47" font-weight="650">everything you buy.</text>
+    <text x="52" y="269" fill="#b6cbc3" font-size="17">Find an answer. Reach a person. Keep the conversation.</text>
+    <rect x="50" y="308" width="514" height="319" rx="22" fill="#1c433e" stroke="#40685e"/>
+    <text x="76" y="347" fill="#d5ef9c" font-size="12" letter-spacing="2">YOUR SERVICE COUNTER</text>
+    <g fill="#f7f3e8">
+      <text x="78" y="390" font-size="15" font-weight="700">01 / Quick answers</text>
+      <text x="78" y="418" font-size="14" fill="#bbd0c6">Ordering, delivery, returns and more.</text>
+      <text x="78" y="460" font-size="15" font-weight="700">02 / Specialist help</text>
+      <text x="78" y="488" font-size="14" fill="#bbd0c6">The right issue, in the right hands.</text>
+      <text x="78" y="530" font-size="15" font-weight="700">03 / Your tickets</text>
+      <text x="78" y="558" font-size="14" fill="#bbd0c6">Follow your request and add a message.</text>
+    </g>
+    <path d="M76 435H538M76 505H538" stroke="#3d655a"/>
+    <rect x="77" y="582" width="459" height="26" rx="7" fill="#d5ef9c"/>
+    <text x="306" y="600" text-anchor="middle" fill="#173d36" font-size="12" font-weight="700">Choose a shelf, or tell us what you need</text>
+    <rect x="626" y="135" width="524" height="100" rx="16" fill="#234640" stroke="#45675d"/>
+    <text x="650" y="169" fill="#d5ef9c" font-size="12" letter-spacing="1.5">PROGRAMMING TEAM</text>
+    <text x="650" y="203" fill="#f5f1e6" font-size="21">Website / payment</text>
+    <text x="1095" y="200" fill="#d5ef9c" font-size="24" text-anchor="middle">01</text>
+    <rect x="626" y="250" width="524" height="100" rx="16" fill="#234640" stroke="#45675d"/>
+    <text x="650" y="284" fill="#d5ef9c" font-size="12" letter-spacing="1.5">SALES TEAM</text>
+    <text x="650" y="318" fill="#f5f1e6" font-size="21">Products / orders</text>
+    <text x="1095" y="315" fill="#d5ef9c" font-size="24" text-anchor="middle">02</text>
+    <rect x="652" y="382" width="472" height="231" rx="2" fill="#f5efdf"/>
+    <path d="M652 613h472l-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-12-8-12 8-16-8z" fill="#f5efdf"/>
+    <text x="676" y="418" fill="#577063" font-size="12" letter-spacing="2">YOUR SUPPORT RECEIPT</text>
+    <text x="676" y="461" fill="#1b3e35" font-size="29" font-weight="700">TICKET #0001</text>
+    <rect x="1008" y="435" width="89" height="29" rx="14" fill="#deebc5"/>
+    <text x="1052" y="455" text-anchor="middle" fill="#37563a" font-size="12" font-weight="700">OPEN</text>
+    <path d="M677 482H1098" stroke="#bbc6b4" stroke-dasharray="5 5"/>
+    <text x="677" y="511" fill="#496456" font-size="14">Team</text>
+    <text x="1096" y="511" fill="#234638" font-size="14" text-anchor="end">Programming</text>
+    <text x="677" y="540" fill="#496456" font-size="14">Your request</text>
+    <text x="1096" y="540" fill="#234638" font-size="14" text-anchor="end">Saved in the team inbox</text>
+    <text x="677" y="586" fill="#234638" font-size="13" font-weight="600">Text, voice and photos. One continuous conversation.</text>
+    <text x="50" y="670" fill="#8daa9d" font-size="12" letter-spacing="1">QUICK ANSWERS / REAL SPECIALISTS / SAVED REQUESTS</text>
+    <text x="1150" y="670" text-anchor="end" fill="#8daa9d" font-size="11">Interface concept / native Telegram theme at runtime</text>
+  </g>
+</svg>
