@@ -171,6 +171,13 @@ Local validation uses Python 3.11.9, compatible with the requested Python 3.11.7
 
 Suggested live acceptance check after configuration: ask an FAQ; submit a payment issue; confirm only Programming and administrators receive it; exchange a text and voice reply; resolve and reopen it; send a damaged-item photo to Sales; restart and confirm history remains.
 
+### Before submitting for review
+
+- **Git synchronization:** commit and push the intended changes, then check that `git status --short` is empty and `git rev-parse HEAD` matches `git rev-parse origin/main` after `git fetch origin`. Confirm the latest GitHub Actions run passes.
+- **Credentials and private data:** keep the real token only in the ignored `.env` file or the host's environment variables. `.env.example` has an empty token field. The token-shaped strings in the tests are explicitly labelled offline dummy credentials, not working bot tokens. Check both tracked files and Git history for accidental secrets; `.gitignore` does not remove previously committed secrets. If a real token is ever published, revoke it through BotFather before replacing it.
+- **Portable files:** keep committed paths relative to the project, and resolve runtime paths from the project directory. No personal drive paths, home-directory paths or links to files on a personal computer are needed. The configuration-path test checks that a different PyCharm working directory does not break setup. Store local databases, SQLite journal files, virtual environments and build output outside Git tracking.
+- **Complete handover:** include the purpose and requirements, installation and configuration steps, customer and administrator commands, database behavior, limitations, troubleshooting, test instructions, work plan and references. These are documented in this README. Live Telegram acceptance testing still requires the owner's private token and staff IDs.
+
 ## Work plan and reuse decisions
 
 | Step | Result |
