@@ -167,7 +167,7 @@ For the same style checks used by CI, install `requirements-dev.txt`, then run `
 
 The **43 offline tests** cover FAQ matching, configuration, routing, previews, duplicate submissions and replayed updates, SQL parameters, rollback, persistence, retry fairness, failed delivery, revoked staff access, department/owner isolation, text and media replies, status changes and shutdown. Integration tests dispatch real `python-telegram-bot` updates into the application and replace only the Telegram HTTP transport. They require no real token and make no Telegram calls.
 
-Local validation uses Python 3.11.9, compatible with the requested Python 3.11.7. The included GitHub Actions workflow also targets **3.11.7**, 3.12 and 3.13. A live Telegram smoke test requires the owner's bot token and staff IDs; no live test or deployment is implied by the offline suite.
+Local validation uses Python 3.11.9, compatible with the requested Python 3.11.7. The included GitHub Actions workflow also targets **3.11.7**, 3.12 and 3.13. Its runner is pinned to Ubuntu 24.04, which has a compatible Python 3.11.7 build in the [official Python versions manifest](https://github.com/actions/python-versions/blob/main/versions-manifest.json), so changes to `ubuntu-latest` do not break that check. A live Telegram smoke test requires the owner's bot token and staff IDs; no live test or deployment is implied by the offline suite.
 
 Suggested live acceptance check after configuration: ask an FAQ; submit a payment issue; confirm only Programming and administrators receive it; exchange a text and voice reply; resolve and reopen it; send a damaged-item photo to Sales; restart and confirm history remains.
 
